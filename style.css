@@ -1,0 +1,153 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+
+.phone-screen {
+    max-width: 400px;
+    min-height: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 90px;
+}
+
+header {
+    font-size: 14px;
+    color: #444444;
+    padding: 10px 0;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search-section {
+    margin: 15px 0;
+}
+
+.search-bar {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.promotion {
+    background: linear-gradient(135deg, #854d0e, #ca8a04);
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.promotion h2 {
+    color: white;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.promo-code {
+    display: inline-block;
+    background-color: white;
+    color: #92400e;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: #222222;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 15px 0 25px;
+}
+
+.category {
+    flex: 1;
+    text-align: center;
+    padding: 8px 4px;
+    background-color: #fff7ed;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.store-card {
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    margin: 15px 0 25px;
+}
+
+.store-cover {
+    background-color: #fae8ff;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.store-details {
+    padding: 15px;
+}
+
+.store-details h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.store-details p {
+    color: #666666;
+    font-size: 14px;
+}
+
+.store-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #444444;
+}
+
+.rating {
+    background-color: #15803d;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    max-width: 100%;
+    background-color: white;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+}
+
+.nav-item {
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.nav-item p {
+    margin: 4px 0 0;
+}
+
+.nav-item.active {
+    color: #92400e;
+}
